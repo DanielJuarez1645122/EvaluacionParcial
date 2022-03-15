@@ -1,0 +1,18 @@
+from math import *
+print("Suma de Numeros")
+print("Ingrese su primer valor numerico")
+numeroUno = input()
+while numeroUno.isnumeric()==False:
+    print("Ingrese un valor numerico, por favor")
+    numeroUno = input()
+numeroUno = float(numeroUno)
+print("Ingrese su segundo valor numerico")
+numeroDos = input()
+while numeroDos.isnumeric() == False:
+    print("Ingrese un valor numerico, por favor")
+    numeroDos = input()
+numeroDos = float(numeroUno)
+
+proceso=numeroUno+numeroDos
+
+print("La suma de los numeros " + str(numeroUno) + " y " + str(numeroDos) + " son: " + str(proceso)) 
