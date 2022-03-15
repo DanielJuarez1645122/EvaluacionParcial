@@ -16,3 +16,4 @@ numeroDos = float(numeroUno)
 proceso=numeroUno+numeroDos
 
 print("La suma de los numeros " + str(numeroUno) + " y " + str(numeroDos) + " son: " + str(proceso))
+print("\nFelicidades, va muy bien con su evaluación parcial. Att. Ing. Miguel")
